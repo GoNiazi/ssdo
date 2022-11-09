@@ -18,7 +18,7 @@
      *     12.  Bootstrap JS           *
      ==================================*/
 
-  // 01. Back to top button
+  01. Back to top button
   const myBacktotop = function () {
     // browser window scroll
     var offset = 300,

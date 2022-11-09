@@ -2663,6 +2663,2816 @@ export default function Home() {
             </nav>
           </div>
         </div>
+        {/* side bar mobile menu */}
+        <div class="mobile-side">
+          <div id="back-menu" class="back-menu back-menu-start">
+            <span class="hamburger-icon open">
+              <svg
+                class="bi bi-x"
+                width="2rem"
+                height="2rem"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z"
+                  clipRule="evenodd"
+                ></path>
+                <path
+                  fillRule="evenodd"
+                  d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z"
+                  clipRule="evenodd"
+                ></path>
+              </svg>
+            </span>
+          </div>
+
+          <nav
+            id="mobile-menu"
+            class="menu-mobile d-flex flex-column push push-start shadow-r-sm bg-white"
+          >
+            <div class="mobile-content mb-auto">
+              <div class="logo-sidenav p-2">
+                <a href="index.html">
+                  <img
+                    src="../../assets/img/logo/default-logo.png"
+                    class="img-fluid"
+                    alt="logo"
+                  />
+                </a>
+              </div>
+
+              <div class="sidenav-menu">
+                <nav class="navbar navbar-light navbar-inverse">
+                  <ul
+                    id="side-menu"
+                    class="nav navbar-nav list-group list-unstyled side-link"
+                  >
+                    <li class="menu-item nav-item">
+                      <a href="#" class="nav-link active">
+                        Home
+                      </a>
+                    </li>
+
+                    <li class="menu-item menu-item-has-children dropdown mega-dropdown nav-item">
+                      <a
+                        href="#"
+                        class="dropdown-toggle nav-link"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        id="menu-11"
+                      >
+                        Automotive
+                      </a>
+
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="menu-11"
+                        role="menu"
+                      >
+                        <li class="menu-item nav-item">
+                          <a
+                            href="../category/category.html"
+                            class="dropdown-item"
+                          >
+                            Cars
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="menu-item nav-item">
+                      <a href="../category/category.html" class="nav-link">
+                        Business
+                      </a>
+                    </li>
+
+                    <li class="menu-item menu-item-has-children dropdown mega-dropdown nav-item">
+                      <a
+                        href="#"
+                        class="dropdown-toggle nav-link"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        id="menu-12"
+                      >
+                        Lifestyle
+                      </a>
+
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="menu-12"
+                        role="menu"
+                      >
+                        <li class="menu-item nav-item">
+                          <a
+                            href="../category/category.html"
+                            class="dropdown-item"
+                          >
+                            Fashion
+                          </a>
+                        </li>
+                        <li class="menu-item menu-item-has-children mega-dropdown nav-item">
+                          <a
+                            href="#"
+                            class="dropdown-item dropdown-toggle"
+                            id="menu-13"
+                          >
+                            Travel
+                          </a>
+
+                          <ul
+                            class="submenu dropdown-menu"
+                            aria-labelledby="menu-13"
+                            role="menu"
+                          >
+                            <li class="menu-item nav-item">
+                              <a
+                                href="../category/category.html"
+                                class="dropdown-item"
+                              >
+                                Adventure
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="menu-item menu-item-has-children mega-dropdown nav-item">
+                          <a
+                            href="#"
+                            class="dropdown-item dropdown-toggle"
+                            id="menu-14"
+                          >
+                            Science
+                          </a>
+                          <ul
+                            class="submenu dropdown-menu"
+                            aria-labelledby="menu-14"
+                            role="menu"
+                          >
+                            <li class="menu-item nav-item">
+                              <a
+                                href="../category/category.html"
+                                class="dropdown-item"
+                              >
+                                Health
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu-item menu-item-has-children dropdown mega-dropdown nav-item">
+                      <a
+                        href="#"
+                        class="dropdown-toggle nav-link"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        id="menu-15"
+                      >
+                        Sports
+                      </a>
+
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="menu-15"
+                        role="menu"
+                      >
+                        <li class="menu-item nav-item">
+                          <a
+                            href="../category/category.html"
+                            class="dropdown-item"
+                          >
+                            Soccer
+                          </a>
+                        </li>
+                        <li class="menu-item nav-item">
+                          <a
+                            href="../category/category.html"
+                            class="dropdown-item"
+                          >
+                            Moto GP
+                          </a>
+                        </li>
+                        <li class="menu-item nav-item">
+                          <a
+                            href="../category/category.html"
+                            class="dropdown-item"
+                          >
+                            Basket
+                          </a>
+                        </li>
+                        <li class="menu-item nav-item">
+                          <a
+                            href="../category/category.html"
+                            class="dropdown-item"
+                          >
+                            NFL
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="menu-item nav-item">
+                      <a href="../category/category.html" class="nav-link">
+                        International
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+
+            <div class="mobile-copyright mt-5 px-4 text-center">
+              <p>
+                Copyright <a href="index.html">Bootnews</a> - All right reserved
+              </p>
+            </div>
+          </nav>
+        </div>
+        {/* main content */}
+        <main id="content">
+          <div class="container">
+            <div class="row">
+              {/* top section */}
+              <div class="col-12 mt-05">
+                <div class="row py-2">
+                  <div class="col-2 col-sm-1 col-md-3 col-lg-2 py-1 pe-md-0 mb-md-1">
+                    <div class="d-inline-block d-md-block bg-primary text-white text-center breaking-caret py-1 px-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1rem"
+                        height="1rem"
+                        fill="currentColor"
+                        class="bi bi-lightning-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z" />
+                      </svg>
+                      <span class="d-none d-md-inline-block">
+                        Breaking news
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="col-10 col-sm-11 col-md-9 col-lg-10 ps-1 ps-md-2">
+                    <div class="breaking-box position-relative py-2">
+                      <div
+                        class="box-carousel"
+                        data-flickity='{ "cellAlign": "left", "wrapAround": true, "adaptiveHeight": true, "prevNextButtons": true , "autoPlay": 5000, "pageDots": false, "imagesLoaded": true }'
+                      >
+                        <div class="col-12 aribudin">
+                          <a class="h6 fw-normal" href="#">
+                            Google Employees Protest Secret Work on Censored
+                            Search Engine for China
+                          </a>
+                        </div>
+
+                        <div class="col-12 aribudin">
+                          <a class="h6 fw-normal" href="#">
+                            Investors Betting Against Tesla Made $1 Billion on
+                            Friday
+                          </a>
+                        </div>
+
+                        <div class="col-12 aribudin">
+                          <a class="h6 fw-normal" href="#">
+                            Carmelo Anthony Officially Signs with the Houston
+                            Rockets
+                          </a>
+                        </div>
+
+                        <div class="col-12 aribudin">
+                          <a class="h6 fw-normal" href="#">
+                            Lemon make your skin fresh and glowing
+                          </a>
+                        </div>
+
+                        <div class="col-12 aribudin">
+                          <a class="h6 fw-normal" href="#">
+                            5 Takeaways From Elon Musk’s Interview With The
+                            Times About Tesla
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row featured-1 mb-5">
+                  <div class="col-md-6 pb-05 pt-05 pe-md-05">
+                    <div class="position-relative overflow-hidden">
+                      <div
+                        class="nav-slider-hover nav-dots-top-right light-dots"
+                        data-flickity='{ "cellAlign": "left", "wrapAround": true, "adaptiveHeight": true, "prevNextButtons": true , "pageDots": true, "imagesLoaded": true }'
+                      >
+                        <article class="col-12">
+                          <div class="card card-full text-light overflow zoom">
+                            <div class="height-ratio image-wrapper">
+                              <a href="#">
+                                <img
+                                  class="img-fluid lazy"
+                                  src="../../assets/img/assets/lazy-empty.png"
+                                  data-src="../../assets/img/568x484/img1.jpg"
+                                  alt="Image description"
+                                />
+                              </a>
+                              <div class="position-absolute p-3 b-0 w-100 bg-lg-shadow">
+                                <a href="#">
+                                  <h2 class="h1-sm h2-md display-4-lg fw-bold text-capitalize heading-letter-spacing text-white">
+                                    Superstar calls for football clean up amid
+                                    series of shocking allegations
+                                  </h2>
+                                </a>
+
+                                <div class="news-meta">
+                                  <span class="news-author">
+                                    by{" "}
+                                    <a class="text-white fw-bold" href="#">
+                                      John Doe
+                                    </a>
+                                  </span>
+                                  <time class="news-date" datetime="2019-10-22">
+                                    Oct 22, 2019
+                                  </time>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </article>
+
+                        <article class="col-12">
+                          <div class="card card-full text-light overflow zoom">
+                            <div class="height-ratio image-wrapper">
+                              <a href="#">
+                                <img
+                                  class="img-fluid lazy"
+                                  src="../../assets/img/assets/lazy-empty.png"
+                                  data-src="../../assets/img/568x484/img2.jpg"
+                                  alt="Image description"
+                                />
+                              </a>
+                              <div class="position-absolute p-3 b-0 w-100 bg-lg-shadow">
+                                <a href="#">
+                                  <h2 class="h1-sm h2-md display-4-lg fw-bold text-capitalize heading-letter-spacing text-white">
+                                    Walmart shares up 10% on online sales lift
+                                  </h2>
+                                </a>
+
+                                <div class="news-meta">
+                                  <span class="news-author">
+                                    by{" "}
+                                    <a class="text-white fw-bold" href="#">
+                                      John Doe
+                                    </a>
+                                  </span>
+                                  <time class="news-date" datetime="2019-10-22">
+                                    Oct 22, 2019
+                                  </time>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </article>
+
+                        <article class="col-12">
+                          <div class="card card-full text-light overflow zoom">
+                            <div class="height-ratio image-wrapper">
+                              <a href="#">
+                                <img
+                                  class="img-fluid lazy"
+                                  src="../../assets/img/assets/lazy-empty.png"
+                                  data-src="../../assets/img/568x484/img3.jpg"
+                                  alt="Image description"
+                                />
+                              </a>
+                              <div class="position-absolute p-3 b-0 w-100 bg-lg-shadow">
+                                <a href="#">
+                                  <h2 class="h1-sm h2-md display-4-lg fw-bold text-capitalize heading-letter-spacing text-white">
+                                    Bank chief warns on Brexit staff moves
+                                  </h2>
+                                </a>
+
+                                <div class="news-meta">
+                                  <span class="news-author">
+                                    by{" "}
+                                    <a class="text-white fw-bold" href="#">
+                                      John Doe
+                                    </a>
+                                  </span>
+                                  <time class="news-date" datetime="2019-10-22">
+                                    Oct 22, 2019
+                                  </time>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </article>
+
+                        <article class="col-12">
+                          <div class="card card-full text-light overflow zoom">
+                            <div class="height-ratio image-wrapper">
+                              <a href="#">
+                                <img
+                                  class="img-fluid lazy"
+                                  src="../../assets/img/assets/lazy-empty.png"
+                                  data-src="../../assets/img/568x484/img4.jpg"
+                                  alt="Image description"
+                                />
+                              </a>
+                              <div class="position-absolute p-3 b-0 w-100 bg-lg-shadow">
+                                <a href="#">
+                                  <h2 class="h1-sm h2-md display-4-lg fw-bold text-capitalize heading-letter-spacing text-white">
+                                    The world's first floating farm making waves
+                                    in Rotterdam
+                                  </h2>
+                                </a>
+
+                                <div class="news-meta">
+                                  <span class="news-author">
+                                    by{" "}
+                                    <a class="text-white fw-bold" href="#">
+                                      John Doe
+                                    </a>
+                                  </span>
+                                  <time class="news-date" datetime="2019-10-22">
+                                    Oct 22, 2019
+                                  </time>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </article>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 pt-05 ps-md-05">
+                    <div class="row newsbox">
+                      <article class="col-6">
+                        <div class="card card-full text-white overflow zoom">
+                          <div class="height-ratio image-wrapper">
+                            <a href="#">
+                              <img
+                                class="img-fluid lazy"
+                                src="../../assets/img/assets/lazy-empty.png"
+                                data-src="../../assets/img/282x240/img1.jpg"
+                                alt="Image description"
+                              />
+                            </a>
+
+                            <div class="position-absolute px-3 pb-3 pt-0 b-0 w-100 bg-shadow">
+                              <a
+                                class="p-1 badge bg-primary text-white"
+                                href="#"
+                              >
+                                Business
+                              </a>
+                              <a href="#">
+                                <h2 class="h6 h4-sm h6-md h5-lg text-white my-1">
+                                  Should you see the Fantastic Beasts sequel?
+                                </h2>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+
+                      <article class="col-6">
+                        <div class="card card-full text-white overflow zoom">
+                          <div class="height-ratio image-wrapper">
+                            <a href="#">
+                              <img
+                                class="img-fluid lazy"
+                                src="../../assets/img/assets/lazy-empty.png"
+                                data-src="../../assets/img/282x240/img2.jpg"
+                                alt="Image description"
+                              />
+                            </a>
+
+                            <div class="position-absolute px-3 pb-3 pt-0 b-0 w-100 bg-shadow">
+                              <a
+                                class="p-1 badge bg-primary text-white"
+                                href="#"
+                              >
+                                Science
+                              </a>
+                              <a href="#">
+                                <h2 class="h6 h4-sm h6-md h5-lg text-white my-1">
+                                  Three myths about Florida elections recount
+                                </h2>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+
+                      <article class="col-6">
+                        <div class="card card-full text-white overflow zoom">
+                          <div class="height-ratio image-wrapper">
+                            <a href="#">
+                              <img
+                                class="img-fluid lazy"
+                                src="../../assets/img/assets/lazy-empty.png"
+                                data-src="../../assets/img/282x240/img3.jpg"
+                                alt="Image description"
+                              />
+                            </a>
+
+                            <div class="position-absolute px-3 pb-3 pt-0 b-0 w-100 bg-shadow">
+                              <a
+                                class="p-1 badge bg-primary text-white"
+                                href="#"
+                              >
+                                Travel
+                              </a>
+                              <a href="#">
+                                <h2 class="h6 h4-sm h6-md h5-lg text-white my-1">
+                                  Finding Empowerment in Two Wheels and a Helmet
+                                </h2>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+
+                      <article class="col-6">
+                        <div class="card card-full text-white overflow zoom">
+                          <div class="height-ratio image-wrapper">
+                            <a href="#">
+                              <img
+                                class="img-fluid lazy"
+                                src="../../assets/img/assets/lazy-empty.png"
+                                data-src="../../assets/img/282x240/img4.jpg"
+                                alt="Image description"
+                              />
+                            </a>
+
+                            <div class="position-absolute px-3 pb-3 pt-0 b-0 w-100 bg-shadow">
+                              <a
+                                class="p-1 badge bg-primary text-white"
+                                href="#"
+                              >
+                                Lifestyle
+                              </a>
+                              <a href="#">
+                                <h2 class="h6 h4-sm h6-md h5-lg text-white my-1">
+                                  Ditch receipts and four other tips to be a
+                                  green shopper
+                                </h2>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* left column */}
+              <div class="col-md-8">
+                <div class="block-area">
+                  <div class="block-title-6">
+                    <h4 class="h5 border-primary">
+                      <span class="bg-primary text-white">Sports</span>
+                    </h4>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <article class="card card-full hover-a mb-4">
+                        <div class="ratio_360-202 image-wrapper">
+                          <a href="#">
+                            <img
+                              class="img-fluid lazy"
+                              src="../../assets/img/assets/lazy-empty.png"
+                              data-src="../../assets/img/360x202/img1.jpg"
+                              alt="Image description"
+                            />
+                          </a>
+                        </div>
+                        <div class="card-body">
+                          <h2 class="card-title h1-sm h3-lg">
+                            <a href="#">
+                              GB's Bankes wins snowboard cross silver at World
+                              Champs
+                            </a>
+                          </h2>
+
+                          <div class="card-text mb-2 text-muted small">
+                            <span class="d-none d-sm-inline me-1">
+                              <a class="fw-bold" href="#">
+                                John Doe
+                              </a>
+                            </span>
+                            <time datetime="2019-10-22">Oct 22, 2019</time>
+                            <span title="9 comment" class="float-end">
+                              <span class="icon-comments"></span> 9
+                            </span>
+                          </div>
+
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                        </div>
+                      </article>
+                    </div>
+
+                    <div class="col-lg-6">
+                      <article class="card card-full hover-a mb-4">
+                        <div class="row">
+                          <div class="col-3 col-md-4 pe-2 pe-md-0">
+                            <div class="ratio_115-80 image-wrapper">
+                              <a href="#">
+                                <img
+                                  class="img-fluid lazy"
+                                  src="../../assets/img/assets/lazy-empty.png"
+                                  data-src="../../assets/img/115x80/img1.jpg"
+                                  alt="Image description"
+                                />
+                              </a>
+                            </div>
+                          </div>
+
+                          <div class="col-9 col-md-8">
+                            <div class="card-body pt-0">
+                              <h3 class="card-title h6 h5-sm h6-lg">
+                                <a href="#">
+                                  Yankees Party Like It’s 1998, at Least for a
+                                  Day
+                                </a>
+                              </h3>
+                              <div class="card-text small text-muted">
+                                <time datetime="2019-10-22">Oct 22, 2019</time>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+
+                      <article class="card card-full hover-a mb-4">
+                        <div class="row">
+                          <div class="col-3 col-md-4 pe-2 pe-md-0">
+                            <div class="ratio_160-112 image-wrapper">
+                              <a href="#">
+                                <img
+                                  class="img-fluid lazy"
+                                  src="../../assets/img/assets/lazy-empty.png"
+                                  data-src="../../assets/img/115x80/img2.jpg"
+                                  alt="Image description"
+                                />
+                              </a>
+                            </div>
+                          </div>
+
+                          <div class="col-9 col-md-8">
+                            <div class="card-body pt-0">
+                              <h3 class="card-title h6 h5-sm h6-lg">
+                                <a href="#">
+                                  Dale Earnhardt Jr. Returns to the Racetrack
+                                  and an Old Hobby
+                                </a>
+                              </h3>
+                              <div class="card-text small text-muted">
+                                <time datetime="2019-10-21">Oct 21, 2019</time>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+
+                      <article class="card card-full hover-a mb-4">
+                        <div class="row">
+                          <div class="col-3 col-md-4 pe-2 pe-md-0">
+                            <div class="ratio_160-112 image-wrapper">
+                              <a href="#">
+                                <img
+                                  class="img-fluid lazy"
+                                  src="../../assets/img/assets/lazy-empty.png"
+                                  data-src="../../assets/img/115x80/img3.jpg"
+                                  alt="Image description"
+                                />
+                              </a>
+                            </div>
+                          </div>
+
+                          <div class="col-9 col-md-8">
+                            <div class="card-body pt-0">
+                              <h3 class="card-title h6 h5-sm h6-lg">
+                                <a href="#">
+                                  Carmelo Anthony Officially Signs with the
+                                  Houston Rockets
+                                </a>
+                              </h3>
+                              <div class="card-text small text-muted">
+                                <time datetime="2019-10-20">Oct 20, 2019</time>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+
+                      <article class="card card-full hover-a mb-4">
+                        <div class="row">
+                          <div class="col-3 col-md-4 pe-2 pe-md-0">
+                            <div class="ratio_160-112 image-wrapper">
+                              <a href="#">
+                                <img
+                                  class="img-fluid lazy"
+                                  src="../../assets/img/assets/lazy-empty.png"
+                                  data-src="../../assets/img/115x80/img4.jpg"
+                                  alt="Image description"
+                                />
+                              </a>
+                            </div>
+                          </div>
+
+                          <div class="col-9 col-md-8">
+                            <div class="card-body pt-0">
+                              <h3 class="card-title h6 h5-sm h6-lg">
+                                <a href="#">
+                                  Jacob deGrom Goes the Distance as Mets Top the
+                                  Phillies
+                                </a>
+                              </h3>
+                              <div class="card-text small text-muted">
+                                <time datetime="2019-10-17">Oct 17, 2019</time>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="block-area">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="block-title-6">
+                        <h4 class="h5 border-primary">
+                          <span class="bg-primary text-white">Automotive</span>
+                        </h4>
+                      </div>
+
+                      <div class="big-post">
+                        <article class="card card-full hover-a mb-4">
+                          <div class="ratio_360-202 image-wrapper">
+                            <a href="#">
+                              <img
+                                class="img-fluid lazy"
+                                src="../../assets/img/assets/lazy-empty.png"
+                                data-src="../../assets/img/360x202/img6.jpg"
+                                alt="Image description"
+                              />
+                            </a>
+                          </div>
+                          <div class="card-body">
+                            <h2 class="card-title h1-sm h3-lg">
+                              <a href="#">
+                                Ferrari improves painting process so perfect
+                              </a>
+                            </h2>
+
+                            <div class="card-text mb-2 text-muted small">
+                              <span class="d-none d-sm-inline me-1">
+                                <a class="fw-bold" href="#">
+                                  John Doe
+                                </a>
+                              </span>
+                              <time datetime="2019-10-22">Oct 22, 2019</time>
+                              <span title="9 comment" class="float-end">
+                                <span class="icon-comments"></span> 9
+                              </span>
+                            </div>
+
+                            <p class="card-text">
+                              This is a wider card with supporting text below as
+                              a natural lead-in to additional content. This
+                              content is a little bit longer.
+                            </p>
+                          </div>
+                        </article>
+                      </div>
+
+                      <div class="small-post">
+                        <article class="card card-full hover-a mb-4">
+                          <div class="row">
+                            <div class="col-3 col-md-4 pe-2 pe-md-0">
+                              <div class="ratio_115-80 image-wrapper">
+                                <a href="#">
+                                  <img
+                                    class="img-fluid lazy"
+                                    src="../../assets/img/assets/lazy-empty.png"
+                                    data-src="../../assets/img/115x80/img21.jpg"
+                                    alt="Image description"
+                                  />
+                                </a>
+                              </div>
+                            </div>
+
+                            <div class="col-9 col-md-8">
+                              <div class="card-body pt-0">
+                                <h3 class="card-title h6 h5-sm h6-lg">
+                                  <a href="#">
+                                    Nissan's sports car strategy rests on the
+                                    stable genius of GT-R
+                                  </a>
+                                </h3>
+                                <div class="card-text small text-muted">
+                                  <time datetime="2019-10-16">
+                                    Oct 16, 2019
+                                  </time>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </article>
+
+                        <article class="card card-full hover-a mb-4">
+                          <div class="row">
+                            <div class="col-3 col-md-4 pe-2 pe-md-0">
+                              <div class="ratio_115-80 image-wrapper">
+                                <a href="#">
+                                  <img
+                                    class="img-fluid lazy"
+                                    src="../../assets/img/assets/lazy-empty.png"
+                                    data-src="../../assets/img/115x80/img22.jpg"
+                                    alt="Image description"
+                                  />
+                                </a>
+                              </div>
+                            </div>
+
+                            <div class="col-9 col-md-8">
+                              <div class="card-body pt-0">
+                                <h3 class="card-title h6 h5-sm h6-lg">
+                                  <a href="#">
+                                    Toyota Sienna rates marginal in
+                                    passenger-side overlap crash test
+                                  </a>
+                                </h3>
+                                <div class="card-text small text-muted">
+                                  <time datetime="2019-10-15">
+                                    Oct 15, 2019
+                                  </time>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </article>
+
+                        <article class="card card-full hover-a mb-4">
+                          <div class="row">
+                            <div class="col-3 col-md-4 pe-2 pe-md-0">
+                              <div class="ratio_115-80 image-wrapper">
+                                <a href="#">
+                                  <img
+                                    class="img-fluid lazy"
+                                    src="../../assets/img/assets/lazy-empty.png"
+                                    data-src="../../assets/img/115x80/img23.jpg"
+                                    alt="Image description"
+                                  />
+                                </a>
+                              </div>
+                            </div>
+
+                            <div class="col-9 col-md-8">
+                              <div class="card-body pt-0">
+                                <h3 class="card-title h6 h5-sm h6-lg">
+                                  <a href="#">
+                                    Ford reveals autonomous vehicle
+                                    philosophies, priorities
+                                  </a>
+                                </h3>
+                                <div class="card-text small text-muted">
+                                  <time datetime="2019-10-14">
+                                    Oct 14, 2019
+                                  </time>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </article>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                      <div class="block-title-6">
+                        <h4 class="h5 border-primary">
+                          <span class="bg-primary text-white">Science</span>
+                        </h4>
+                      </div>
+
+                      <div class="big-post">
+                        <article class="card card-full hover-a mb-4">
+                          <div class="ratio_360-202 image-wrapper">
+                            <a href="#">
+                              <img
+                                class="img-fluid lazy"
+                                src="../../assets/img/assets/lazy-empty.png"
+                                data-src="../../assets/img/360x202/img7.jpg"
+                                alt="Image description"
+                              />
+                            </a>
+                          </div>
+                          <div class="card-body">
+                            <h2 class="card-title h1-sm h3-lg">
+                              <a href="#">
+                                Settling Arguments About Hydrogen With 168 Giant
+                                Lasers
+                              </a>
+                            </h2>
+
+                            <div class="card-text mb-2 text-muted small">
+                              <span class="d-none d-sm-inline me-1">
+                                <a class="fw-bold" href="#">
+                                  John Doe
+                                </a>
+                              </span>
+                              <time datetime="2019-10-22">Oct 22, 2019</time>
+                              <span title="9 comment" class="float-end">
+                                <span class="icon-comments"></span> 9
+                              </span>
+                            </div>
+
+                            <p class="card-text">
+                              This is a wider card with supporting text below as
+                              a natural lead-in to additional content. This
+                              content is a little bit longer.
+                            </p>
+                          </div>
+                        </article>
+                      </div>
+
+                      <div class="small-post">
+                        <article class="card card-full hover-a mb-4">
+                          <div class="row">
+                            <div class="col-3 col-md-4 pe-2 pe-md-0">
+                              <div class="ratio_115-80 image-wrapper">
+                                <a href="#">
+                                  <img
+                                    class="img-fluid lazy"
+                                    src="../../assets/img/assets/lazy-empty.png"
+                                    data-src="../../assets/img/115x80/img24.jpg"
+                                    alt="Image description"
+                                  />
+                                </a>
+                              </div>
+                            </div>
+
+                            <div class="col-9 col-md-8">
+                              <div class="card-body pt-0">
+                                <h3 class="card-title h6 h5-sm h6-lg">
+                                  <a href="#">
+                                    Hundreds of Reindeer Died by Lightning.
+                                  </a>
+                                </h3>
+                                <div class="card-text small text-muted">
+                                  <time datetime="2019-10-09">Oct 9, 2019</time>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </article>
+
+                        <article class="card card-full hover-a mb-4">
+                          <div class="row">
+                            <div class="col-3 col-md-4 pe-2 pe-md-0">
+                              <div class="ratio_115-80 image-wrapper">
+                                <a href="#">
+                                  <img
+                                    class="img-fluid lazy"
+                                    src="../../assets/img/assets/lazy-empty.png"
+                                    data-src="../../assets/img/115x80/img25.jpg"
+                                    alt="Image description"
+                                  />
+                                </a>
+                              </div>
+                            </div>
+
+                            <div class="col-9 col-md-8">
+                              <div class="card-body pt-0">
+                                <h3 class="card-title h6 h5-sm h6-lg">
+                                  <a href="#">
+                                    Latest Attraction at French Theme Park:
+                                    Crows That Pick Up Trash
+                                  </a>
+                                </h3>
+                                <div class="card-text small text-muted">
+                                  <time datetime="2019-10-07">Oct 7, 2019</time>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </article>
+
+                        <article class="card card-full hover-a mb-4">
+                          <div class="row">
+                            <div class="col-3 col-md-4 pe-2 pe-md-0">
+                              <div class="ratio_115-80 image-wrapper">
+                                <a href="#">
+                                  <img
+                                    class="img-fluid lazy"
+                                    src="../../assets/img/assets/lazy-empty.png"
+                                    data-src="../../assets/img/115x80/img26.jpg"
+                                    alt="Image description"
+                                  />
+                                </a>
+                              </div>
+                            </div>
+
+                            <div class="col-9 col-md-8">
+                              <div class="card-body pt-0">
+                                <h3 class="card-title h6 h5-sm h6-lg">
+                                  <a href="#">
+                                    Offer Hints to How Dogs Became Domesticated
+                                  </a>
+                                </h3>
+                                <div class="card-text small text-muted">
+                                  <time datetime="2019-10-18">
+                                    Oct 18, 2019
+                                  </time>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </article>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="block-area">
+                  <div class="block-title-6">
+                    <h4 class="h5 border-primary">
+                      <span class="bg-primary text-white">International</span>
+                    </h4>
+                  </div>
+
+                  <div class="big-post">
+                    <article class="card card-full hover-a mb-4">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <div class="ratio_360-202 image-wrapper">
+                            <a href="#">
+                              <img
+                                class="img-fluid lazy"
+                                src="../../assets/img/assets/lazy-empty.png"
+                                data-src="../../assets/img/360x202/img8.jpg"
+                                alt="Image description"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="card-body pt-3 pt-lg-0">
+                            <h2 class="card-title h1-sm h3-lg">
+                              <a href="#">
+                                Leica D-Lux 7 compact camera with 17MP
+                                four-thirds sensor
+                              </a>
+                            </h2>
+
+                            <div class="card-text mb-2 text-muted small">
+                              <span class="d-none d-sm-inline me-1">
+                                <a class="fw-bold" href="#">
+                                  John Doe
+                                </a>
+                              </span>
+                              <time datetime="2019-10-21">Oct 21, 2019</time>
+                              <span title="5 comment" class="float-end">
+                                <span class="icon-comments"></span> 5
+                              </span>
+                            </div>
+
+                            <p class="card-text">
+                              This is a wider card with supporting text below as
+                              a natural lead-in to additional content. This very
+                              helpfull for generate default content..
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+
+                  <div class="row small-post">
+                    <article class="col-lg-6">
+                      <div class="card card-full hover-a mb-4">
+                        <div class="row">
+                          <div class="col-3 col-md-4 pe-2 pe-md-0">
+                            <div class="ratio_115-80 image-wrapper">
+                              <a href="#">
+                                <img
+                                  class="img-fluid lazy"
+                                  src="../../assets/img/assets/lazy-empty.png"
+                                  data-src="../../assets/img/115x80/img27.jpg"
+                                  alt="Image description"
+                                />
+                              </a>
+                            </div>
+                          </div>
+
+                          <div class="col-9 col-md-8">
+                            <div class="card-body pt-0">
+                              <h3 class="card-title h6 h5-sm h6-lg">
+                                <a href="#">
+                                  The Bride Was a Dream in a Dirndl, but Putin
+                                  Stole the Show
+                                </a>
+                              </h3>
+                              <div class="card-text small text-muted">
+                                <time datetime="2019-10-19">Oct 19, 2019</time>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article class="col-lg-6">
+                      <div class="card card-full hover-a mb-4">
+                        <div class="row">
+                          <div class="col-3 col-md-4 pe-2 pe-md-0">
+                            <div class="ratio_115-80 image-wrapper">
+                              <a href="#">
+                                <img
+                                  class="img-fluid lazy"
+                                  src="../../assets/img/assets/lazy-empty.png"
+                                  data-src="../../assets/img/115x80/img28.jpg"
+                                  alt="Image description"
+                                />
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-9 col-md-8">
+                            <div class="card-body pt-0">
+                              <h3 class="card-title h6 h5-sm h6-lg">
+                                <a href="#">
+                                  Quebec’s ‘Trash Radio’ Host Fires Up Outrage,
+                                  and Big Ratings
+                                </a>
+                              </h3>
+                              <div class="card-text small text-muted">
+                                <time datetime="2019-10-18">Oct 18, 2019</time>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article class="col-lg-6">
+                      <div class="card card-full hover-a mb-4">
+                        <div class="row">
+                          <div class="col-3 col-md-4 pe-2 pe-md-0">
+                            <div class="ratio_115-80 image-wrapper">
+                              <a href="#">
+                                <img
+                                  class="img-fluid lazy"
+                                  src="../../assets/img/assets/lazy-empty.png"
+                                  data-src="../../assets/img/115x80/img29.jpg"
+                                  alt="Image description"
+                                />
+                              </a>
+                            </div>
+                          </div>
+
+                          <div class="col-9 col-md-8">
+                            <div class="card-body pt-0">
+                              <h3 class="card-title h6 h5-sm h6-lg">
+                                <a href="#">
+                                  The West Hoped for Democracy in Turkey.
+                                  Erdogan Had Other Ideas
+                                </a>
+                              </h3>
+                              <div class="card-text small text-muted">
+                                <time datetime="2019-10-17">Oct 17, 2019</time>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article class="col-lg-6">
+                      <div class="card card-full hover-a mb-4">
+                        <div class="row">
+                          <div class="col-3 col-md-4 pe-2 pe-md-0">
+                            <div class="ratio_115-80 image-wrapper">
+                              <a href="#">
+                                <img
+                                  class="img-fluid lazy"
+                                  src="../../assets/img/assets/lazy-empty.png"
+                                  data-src="../../assets/img/115x80/img30.jpg"
+                                  alt="Image description"
+                                />
+                              </a>
+                            </div>
+                          </div>
+
+                          <div class="col-9 col-md-8">
+                            <div class="card-body pt-0">
+                              <h3 class="card-title h6 h5-sm h6-lg">
+                                <a href="#">
+                                  Why Apple went to war with Facebook and Google
+                                  this week
+                                </a>
+                              </h3>
+                              <div class="card-text small text-muted">
+                                <time datetime="2019-10-16">Oct 16, 2019</time>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+
+                <div class="block-area">
+                  <div class="block-title-6">
+                    <h4 class="h5 border-primary">
+                      <span class="bg-primary text-white">Travel</span>
+                    </h4>
+                  </div>
+
+                  <div class="row">
+                    <article class="col-sm-6 col-md-12 col-lg-6">
+                      <div class="card card-full hover-a mb-4">
+                        <div class="ratio_360-202 image-wrapper">
+                          <a href="#">
+                            <img
+                              class="img-fluid lazy"
+                              src="../../assets/img/assets/lazy-empty.png"
+                              data-src="../../assets/img/360x202/img13.jpg"
+                              alt="Image description"
+                            />
+                          </a>
+                        </div>
+                        <a
+                          class="bg-full-shadow"
+                          aria-label="overlay article"
+                          href="#"
+                        ></a>
+                        <div class="position-absolute px-3 top-3 w-100 z-index-5 text-center">
+                          <a href="#">
+                            <h5 class="card-title h3 h4-sm h3-md text-white my-1">
+                              94 Easy Chicken Recipes for Fuss-Free Family
+                              Dinners
+                            </h5>
+                          </a>
+                          <span class="d-inline d-sm-none d-md-inline me-1">
+                            <a class="fw-bold text-white" href="#">
+                              John Doe
+                            </a>
+                          </span>
+
+                          <time
+                            class="d-sm-none d-md-inline m-0 text-white"
+                            datetime="2019-10-21"
+                          >
+                            Oct 21, 2019
+                          </time>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article class="col-sm-6 col-md-12 col-lg-6">
+                      <div class="card card-full hover-a mb-4">
+                        <div class="ratio_360-202 image-wrapper">
+                          <a href="#">
+                            <img
+                              class="img-fluid lazy"
+                              src="../../assets/img/assets/lazy-empty.png"
+                              data-src="../../assets/img/360x202/img14.jpg"
+                              alt="Image description"
+                            />
+                          </a>
+                        </div>
+                        <a
+                          class="bg-full-shadow"
+                          aria-label="overlay article"
+                          href="#"
+                        ></a>
+                        <div class="position-absolute px-3 top-3 w-100 z-index-5 text-center">
+                          <a href="#">
+                            <h5 class="card-title h3 h4-sm h3-md text-white my-1">
+                              5 Tips to Save Money Booking Your Next Hotel Room
+                            </h5>
+                          </a>
+
+                          <span class="d-inline d-sm-none d-md-inline me-1">
+                            <a class="fw-bold text-white" href="#">
+                              John Doe
+                            </a>
+                          </span>
+
+                          <time
+                            class="d-sm-none d-md-inline m-0 text-white"
+                            datetime="2019-10-21"
+                          >
+                            Oct 21, 2019
+                          </time>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article class="col-sm-6 col-md-12 col-lg-6">
+                      <div class="card card-full hover-a mb-4">
+                        <div class="ratio_360-202 image-wrapper">
+                          <a href="#">
+                            <img
+                              class="img-fluid lazy"
+                              src="../../assets/img/assets/lazy-empty.png"
+                              data-src="../../assets/img/360x202/img15.jpg"
+                              alt="Image description"
+                            />
+                          </a>
+                        </div>
+                        <a
+                          class="bg-full-shadow"
+                          aria-label="overlay article"
+                          href="#"
+                        ></a>
+                        <div class="position-absolute px-3 top-3 w-100 z-index-5 text-center">
+                          <a href="#">
+                            <h5 class="card-title h3 h4-sm h3-md text-white my-1">
+                              The 52 Places Traveler: Summer in France, in Two
+                              Very Different Ways
+                            </h5>
+                          </a>
+
+                          <span class="d-inline d-sm-none d-md-inline me-1">
+                            <a class="fw-bold text-white" href="#">
+                              John Doe
+                            </a>
+                          </span>
+
+                          <time
+                            class="d-sm-none d-md-inline m-0 text-white"
+                            datetime="2019-10-21"
+                          >
+                            Oct 21, 2019
+                          </time>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article class="col-sm-6 col-md-12 col-lg-6">
+                      <div class="card card-full hover-a mb-4">
+                        <div class="ratio_360-202 image-wrapper">
+                          <a href="#">
+                            <img
+                              class="img-fluid lazy"
+                              src="../../assets/img/assets/lazy-empty.png"
+                              data-src="../../assets/img/360x202/img16.jpg"
+                              alt="Image description"
+                            />
+                          </a>
+                        </div>
+                        <a
+                          class="bg-full-shadow"
+                          aria-label="overlay article"
+                          href="#"
+                        ></a>
+                        <div class="position-absolute px-3 top-3 w-100 z-index-5 text-center">
+                          <a href="#">
+                            <h5 class="card-title h3 h4-sm h3-md text-white my-1">
+                              6 Simple Tips to Help Vegetarian or Vegan
+                              Travelers Eat Well, Anywhere
+                            </h5>
+                          </a>
+
+                          <span class="d-inline d-sm-none d-md-inline me-1">
+                            <a class="fw-bold text-white" href="#">
+                              John Doe
+                            </a>
+                          </span>
+
+                          <time
+                            class="d-sm-none d-md-inline m-0 text-white"
+                            datetime="2019-10-21"
+                          >
+                            Oct 21, 2019
+                          </time>
+                        </div>
+                      </div>
+                    </article>
+
+                    <div class="gap-05"></div>
+                  </div>
+                </div>
+              </div>
+              {/* right column */}
+              <aside class="col-md-4 end-sidebar-lg">
+                <div class="sticky">
+                  <aside class="widget">
+                    <div class="block-title-4">
+                      <h4 class="h5 title-arrow">
+                        <span>Social network</span>
+                      </h4>
+                    </div>
+                    <ul class="list-unstyled social-two">
+                      <li class="facebook">
+                        <a
+                          class="bg-facebook text-white"
+                          href="#"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label="facebook"
+                        >
+                          Facebook
+                        </a>
+                      </li>
+                      <li class="twitter">
+                        <a
+                          class="bg-twitter text-white"
+                          href="#"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label="twitter"
+                        >
+                          Twitter
+                        </a>
+                      </li>
+                      <li class="instagram">
+                        <a
+                          class="bg-instagram text-white"
+                          href="#"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label="instagram"
+                        >
+                          Instagram
+                        </a>
+                      </li>
+                      <li class="youtube">
+                        <a
+                          class="bg-youtube text-white"
+                          href="#"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label="youtube"
+                        >
+                          Youtube
+                        </a>
+                      </li>
+                      <li class="linkedin">
+                        <a
+                          class="bg-linkedin text-white"
+                          href="#"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label="linkedin"
+                        >
+                          Linkedin
+                        </a>
+                      </li>
+                      <li class="vimeo">
+                        <a
+                          class="bg-vimeo text-white"
+                          href="#"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label="Vimeo"
+                        >
+                          Vimeo
+                        </a>
+                      </li>
+                      <li class="pinterest">
+                        <a
+                          class="bg-pinterest text-white"
+                          href="#"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label="Pinterest"
+                        >
+                          Pinterest
+                        </a>
+                      </li>
+                      <li class="telegram">
+                        <a
+                          class="bg-telegram text-white"
+                          href="#"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label="Telegram"
+                        >
+                          Telegram
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="gap-15"></div>
+                  </aside>
+
+                  <aside class="widget">
+                    <div class="block-title-4">
+                      <h4 class="h5 title-arrow">
+                        <span>Popular Post</span>
+                      </h4>
+                    </div>
+                    <ul class="post-number list-unstyled border-bottom-last-0 rounded mb-3">
+                      <li class="hover-a">
+                        <a class="h5 h6-md h5-lg" href="#">
+                          Why the world would end without political polls
+                        </a>
+                      </li>
+                      <li class="hover-a">
+                        <a class="h5 h6-md h5-lg" href="#">
+                          Meet The Man Who Designed The Ducati Monster
+                        </a>
+                      </li>
+                      <li class="hover-a">
+                        <a class="h5 h6-md h5-lg" href="#">
+                          2020 Audi R8 Spyder spy shots release
+                        </a>
+                      </li>
+                      <li class="hover-a">
+                        <a class="h5 h6-md h5-lg" href="#">
+                          Lamborghini makes Huracán GT3 racer faster for 2019
+                        </a>
+                      </li>
+                      <li class="hover-a">
+                        <a class="h5 h6-md h5-lg" href="#">
+                          ZF plans $14 billion autonomous vehicle push, concept
+                          van
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="gap-0"></div>
+                  </aside>
+
+                  <aside class="widget">
+                    <div class="block-title-4">
+                      <h4 class="h5 title-arrow">
+                        <span>Latest news</span>
+                      </h4>
+                    </div>
+                    <div class="big-post">
+                      <article class="card card-full hover-a mb-4">
+                        <div class="ratio_360-202 image-wrapper">
+                          <a href="#">
+                            <img
+                              class="img-fluid lazy"
+                              src="../../assets/img/assets/lazy-empty.png"
+                              data-src="../../assets/img/360x202/img55.jpg"
+                              alt="Image description"
+                            />
+                          </a>
+                        </div>
+                        <div class="card-body">
+                          <h2 class="card-title h1-sm h3-md">
+                            <a href="#">
+                              MotoGP: Which team needs what in 2019?
+                            </a>
+                          </h2>
+                          <div class="card-text mb-2 text-muted small">
+                            <span class="d-none d-sm-inline me-1">
+                              <a class="fw-bold" href="#">
+                                John Doe
+                              </a>
+                            </span>
+                            <time datetime="2019-10-22">Oct 22, 2019</time>
+                          </div>
+                          <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="small-post">
+                      <article class="card card-full hover-a mb-4">
+                        <div class="row">
+                          <div class="col-3 col-md-4 pe-2 pe-md-0">
+                            <div class="ratio_110-77 image-wrapper">
+                              <a href="#">
+                                <img
+                                  class="img-fluid lazy"
+                                  src="../../assets/img/assets/lazy-empty.png"
+                                  data-src="../../assets/img/110x77/img5.jpg"
+                                  alt="Image description"
+                                />
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-9 col-md-8">
+                            <div class="card-body pt-0">
+                              <h3 class="card-title h6 h5-sm h6-md">
+                                <a href="#">
+                                  Take the kids to Windermere Jetty, Lake
+                                  District
+                                </a>
+                              </h3>
+                              <div class="card-text small text-muted">
+                                <time datetime="2019-10-16">Oct 16, 2019</time>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                      <article class="card card-full hover-a mb-4">
+                        <div class="row">
+                          <div class="col-3 col-md-4 pe-2 pe-md-0">
+                            <div class="ratio_110-77 image-wrapper">
+                              <a href="#">
+                                <img
+                                  class="img-fluid lazy"
+                                  src="../../assets/img/assets/lazy-empty.png"
+                                  data-src="../../assets/img/110x77/img6.jpg"
+                                  alt="Image description"
+                                />
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-9 col-md-8">
+                            <div class="card-body pt-0">
+                              <h3 class="h6 h4-sm h6-md">
+                                <a href="#">
+                                  Wave reviews: Under – Norway's new underwater
+                                  restaurant
+                                </a>
+                              </h3>
+                              <div class="small text-muted">
+                                <time datetime="2019-10-15">Oct 15, 2019</time>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                      <article class="card card-full hover-a mb-4">
+                        <div class="row">
+                          <div class="col-3 col-md-4 pe-2 pe-md-0">
+                            <div class="ratio_110-77 image-wrapper">
+                              <a href="#">
+                                <img
+                                  class="img-fluid lazy"
+                                  src="../../assets/img/assets/lazy-empty.png"
+                                  data-src="../../assets/img/110x77/img7.jpg"
+                                  alt="Image description"
+                                />
+                              </a>
+                            </div>
+                          </div>
+
+                          <div class="col-9 col-md-8">
+                            <div class="card-body pt-0">
+                              <h3 class="h6 h4-sm h6-md">
+                                <a href="#">
+                                  This U.S. Airline Has More Legroom Than Any
+                                  Other
+                                </a>
+                              </h3>
+                              <div class="small text-muted">
+                                <time datetime="2019-10-14">Oct 14, 2019</time>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                    </div>
+
+                    <div class="gap-0"></div>
+                  </aside>
+
+                  <aside class="widget">
+                    <div class="hover-a text-center">
+                      <div class="py-2">
+                        <span class="text-mute small">- Advertisement -</span>
+                      </div>
+
+                      <a href="#">
+                        <img
+                          class="img-fluid bg-light"
+                          src="../../assets/img/ads/300-demo.png"
+                          alt="ads space"
+                        />
+                      </a>
+                    </div>
+                    <div class="gap-15"></div>
+                  </aside>
+                </div>
+              </aside>
+              {/* start full column */}
+              <div class="col-12 mb-4">
+                <div class="block-area p-4 border bg-light-black">
+                  <div class="block-title-13">
+                    <h4 class="h5 title-box-dot">
+                      <span>Interior Design</span>
+                    </h4>
+                    <div class="dot-line"></div>
+                  </div>
+                  <div
+                    class="nav-slider-hover nav-dots-top-right light-dots"
+                    data-flickity='{ "cellAlign": "left", "wrapAround": true, "adaptiveHeight": true, "prevNextButtons": true , "pageDots": true, "imagesLoaded": true }'
+                  >
+                    <article class="col-12 col-sm-6 col-lg-4 me-2">
+                      <div class="col-12 mb-4">
+                        <div class="card card-full hover-a">
+                          <div class="ratio_327-278 image-wrapper">
+                            <a href="#">
+                              <img
+                                class="img-fluid lazy"
+                                src="../../assets/img/assets/lazy-empty.png"
+                                data-src="../../assets/img/400x340/img1.jpg"
+                                alt="Image description"
+                              />
+                            </a>
+                            <div class="position-absolute p-3 b-0 w-100 bg-shadow">
+                              <h4 class="h3 h4-sm h3-md card-title">
+                                <a class="text-white" href="#">
+                                  An elegant Modern office design in California
+                                  and Nevada
+                                </a>
+                              </h4>
+                              <div class="small text-light">
+                                <time datetime="2019-10-18">Oct 18, 2019</time>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="col-12 col-sm-6 col-lg-4 me-2">
+                      <div class="col-12 mb-4">
+                        <div class="card card-full hover-a">
+                          <div class="ratio_327-278 image-wrapper">
+                            <a href="#">
+                              <img
+                                class="img-fluid lazy"
+                                src="../../assets/img/assets/lazy-empty.png"
+                                data-src="../../assets/img/400x340/img2.jpg"
+                                alt="Image description"
+                              />
+                            </a>
+                            <div class="position-absolute p-3 b-0 w-100 bg-shadow">
+                              <h4 class="h3 h4-sm h3-md card-title">
+                                <a class="text-white" href="#">
+                                  Here’s All The Property News You Missed This
+                                  Week
+                                </a>
+                              </h4>
+                              <div class="small text-light">
+                                <time datetime="2019-10-18">Oct 18, 2019</time>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="col-12 col-sm-6 col-lg-4 me-2">
+                      <div class="col-12 mb-4">
+                        <div class="card card-full hover-a">
+                          <div class="ratio_327-278 image-wrapper">
+                            <a href="#">
+                              <img
+                                class="img-fluid lazy"
+                                src="../../assets/img/assets/lazy-empty.png"
+                                data-src="../../assets/img/400x340/img3.jpg"
+                                alt="Image description"
+                              />
+                            </a>
+                            <div class="position-absolute p-3 b-0 w-100 bg-shadow">
+                              <h4 class="h3 h4-sm h3-md card-title">
+                                <a class="text-white" href="#">
+                                  Why We Love the Look of White Calacatta
+                                  Marble?
+                                </a>
+                              </h4>
+                              <div class="small text-light">
+                                <time datetime="2019-10-18">Oct 18, 2019</time>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="col-12 col-sm-6 col-lg-4 me-2">
+                      <div class="col-12 mb-4">
+                        <div class="card card-full hover-a">
+                          <div class="ratio_327-278 image-wrapper">
+                            <a href="#">
+                              <img
+                                class="img-fluid lazy"
+                                src="../../assets/img/assets/lazy-empty.png"
+                                data-src="../../assets/img/400x340/img4.jpg"
+                                alt="Image description"
+                              />
+                            </a>
+                            <div class="position-absolute p-3 b-0 w-100 bg-shadow">
+                              <h4 class="h3 h4-sm h3-md card-title">
+                                <a class="text-white" href="#">
+                                  The event showcases products like homewares
+                                  and furniture
+                                </a>
+                              </h4>
+                              <div class="small text-light">
+                                <time datetime="2019-10-18">Oct 18, 2019</time>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="col-12 col-sm-6 col-lg-4 me-2">
+                      <div class="col-12 mb-4">
+                        <div class="card card-full hover-a">
+                          <div class="ratio_327-278 image-wrapper">
+                            <a href="#">
+                              <img
+                                class="img-fluid lazy"
+                                src="../../assets/img/assets/lazy-empty.png"
+                                data-src="../../assets/img/400x340/img5.jpg"
+                                alt="Image description"
+                              />
+                            </a>
+                            <div class="position-absolute p-3 b-0 w-100 bg-shadow">
+                              <h4 class="h3 h4-sm h3-md card-title">
+                                <a class="text-white" href="#">
+                                  The Best Street Style Looks from New York
+                                  Property show
+                                </a>
+                              </h4>
+                              <div class="small text-light">
+                                <time datetime="2019-10-18">Oct 18, 2019</time>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+              {/* start left column */}
+              <div class="col-md-8">
+                <div class="block-area">
+                  <div class="block-title-6">
+                    <h4 class="h5 border-primary">
+                      <span class="bg-primary text-white">Latest post</span>
+                    </h4>
+                  </div>
+                  <div class="border-bottom-last-0 first-pt-0">
+                    <article class="card card-full hover-a py-4">
+                      <div class="row">
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                          <div class="ratio_360-202 image-wrapper">
+                            <a href="#">
+                              <img
+                                class="img-fluid lazy"
+                                src="../../assets/img/assets/lazy-empty.png"
+                                data-src="../../assets/img/360x202/img17.jpg"
+                                alt="Image description"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                          <div class="card-body pt-3 pt-sm-0 pt-md-3 pt-lg-0">
+                            <h3 class="card-title h2 h3-sm h2-md">
+                              <a href="#">
+                                Apple's stock rout starts and ends with the
+                                iPhone
+                              </a>
+                            </h3>
+                            <div class="card-text mb-2 text-muted small">
+                              <span class="d-none d-sm-inline me-1">
+                                <a class="fw-bold" href="#">
+                                  John Doe
+                                </a>
+                              </span>
+                              <time datetime="2019-10-21">Oct 21, 2019</time>
+                            </div>
+                            <p class="card-text">
+                              This is a wider card with supporting text below as
+                              a natural lead-in to additional content. A small
+                              river flows by their place and ...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="card card-full hover-a py-4">
+                      <div class="row">
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                          <div class="ratio_360-202 image-wrapper">
+                            <a href="#">
+                              <img
+                                class="img-fluid lazy"
+                                src="../../assets/img/assets/lazy-empty.png"
+                                data-src="../../assets/img/360x202/img18.jpg"
+                                alt="Image description"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                          <div class="card-body pt-3 pt-sm-0 pt-md-3 pt-lg-0">
+                            <h3 class="card-title h2 h3-sm h2-md">
+                              <a href="#">
+                                Want the best Black Friday deals? Head to a
+                                department store
+                              </a>
+                            </h3>
+                            <div class="card-text mb-2 text-muted small">
+                              <span class="d-none d-sm-inline me-1">
+                                <a class="fw-bold" href="#">
+                                  John Doe
+                                </a>
+                              </span>
+                              <time datetime="2019-10-21">Oct 21, 2019</time>
+                            </div>
+                            <p class="card-text">
+                              This is a wider card with supporting text below as
+                              a natural lead-in to additional content. A small
+                              river flows by their place and ...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="card card-full hover-a py-4">
+                      <div class="row">
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                          <div class="ratio_360-202 image-wrapper">
+                            <a href="#">
+                              <img
+                                class="img-fluid lazy"
+                                src="../../assets/img/assets/lazy-empty.png"
+                                data-src="../../assets/img/360x202/img14.jpg"
+                                alt="Image description"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                          <div class="card-body pt-3 pt-sm-0 pt-md-3 pt-lg-0">
+                            <h3 class="card-title h2 h3-sm h2-md">
+                              <a href="#">
+                                5 Tips to Save Money Booking Your Next Hotel
+                                Room
+                              </a>
+                            </h3>
+                            <div class="card-text mb-2 text-muted small">
+                              <span class="d-none d-sm-inline me-1">
+                                <a class="fw-bold" href="#">
+                                  John Doe
+                                </a>
+                              </span>
+                              <time datetime="2019-10-21">Oct 21, 2019</time>
+                            </div>
+                            <p class="card-text">
+                              This is a wider card with supporting text below as
+                              a natural lead-in to additional content. A small
+                              river flows by their place and ...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="card card-full hover-a py-4">
+                      <div class="row">
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                          <div class="ratio_360-202 image-wrapper">
+                            <a href="#">
+                              <img
+                                class="img-fluid lazy"
+                                src="../../assets/img/assets/lazy-empty.png"
+                                data-src="../../assets/img/360x202/img15.jpg"
+                                alt="Image description"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                          <div class="card-body pt-3 pt-sm-0 pt-md-3 pt-lg-0">
+                            <h3 class="card-title h2 h3-sm h2-md">
+                              <a href="#">
+                                Dubai launches pilot for Middle East 'Shark
+                                Tank'
+                              </a>
+                            </h3>
+                            <div class="card-text mb-2 text-muted small">
+                              <span class="d-none d-sm-inline me-1">
+                                <a class="fw-bold" href="#">
+                                  John Doe
+                                </a>
+                              </span>
+                              <time datetime="2019-10-21">Oct 21, 2019</time>
+                            </div>
+                            <p class="card-text">
+                              This is a wider card with supporting text below as
+                              a natural lead-in to additional content. A small
+                              river flows by their place and ...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="card card-full hover-a py-4">
+                      <div class="row">
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                          <div class="ratio_360-202 image-wrapper">
+                            <a href="#">
+                              <img
+                                class="img-fluid lazy"
+                                src="../../assets/img/assets/lazy-empty.png"
+                                data-src="../../assets/img/360x202/img16.jpg"
+                                alt="Image description"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                          <div class="card-body pt-3 pt-sm-0 pt-md-3 pt-lg-0">
+                            <h3 class="card-title h2 h3-sm h2-md">
+                              <a href="#">
+                                The pioneering and popular compact Range Rover
+                                Evoque gets a major makeover
+                              </a>
+                            </h3>
+                            <div class="card-text mb-2 text-muted small">
+                              <span class="d-none d-sm-inline me-1">
+                                <a class="fw-bold" href="#">
+                                  John Doe
+                                </a>
+                              </span>
+                              <time datetime="2019-10-21">Oct 21, 2019</time>
+                            </div>
+                            <p class="card-text">
+                              This is a wider card with supporting text below as
+                              a natural lead-in to additional content. A small
+                              river flows by their place and ...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="card card-full hover-a py-4">
+                      <div class="row">
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                          <div class="ratio_360-202 image-wrapper">
+                            <a href="#">
+                              <img
+                                class="img-fluid lazy"
+                                src="../../assets/img/assets/lazy-empty.png"
+                                data-src="../../assets/img/360x202/img19.jpg"
+                                alt="Image description"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                          <div class="card-body pt-3 pt-sm-0 pt-md-3 pt-lg-0">
+                            <h3 class="card-title h2 h3-sm h2-md">
+                              <a href="#">
+                                European markets fight back to close higher; oil
+                                in focus
+                              </a>
+                            </h3>
+                            <div class="card-text mb-2 text-muted small">
+                              <span class="d-none d-sm-inline me-1">
+                                <a class="fw-bold" href="#">
+                                  John Doe
+                                </a>
+                              </span>
+                              <time datetime="2019-10-21">Oct 21, 2019</time>
+                            </div>
+                            <p class="card-text">
+                              This is a wider card with supporting text below as
+                              a natural lead-in to additional content. A small
+                              river flows by their place and ...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="card card-full hover-a py-4">
+                      <div class="row">
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                          <div class="ratio_360-202 image-wrapper">
+                            <a href="#">
+                              <img
+                                class="img-fluid lazy"
+                                src="../../assets/img/assets/lazy-empty.png"
+                                data-src="../../assets/img/360x202/img5.jpg"
+                                alt="Image description"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                          <div class="card-body pt-3 pt-sm-0 pt-md-3 pt-lg-0">
+                            <h3 class="card-title h2 h3-sm h2-md">
+                              <a href="#">
+                                MotoGP: Which team needs what in 2019?
+                              </a>
+                            </h3>
+                            <div class="card-text mb-2 text-muted small">
+                              <span class="d-none d-sm-inline me-1">
+                                <a class="fw-bold" href="#">
+                                  John Doe
+                                </a>
+                              </span>
+                              <time datetime="2019-10-21">Oct 21, 2019</time>
+                            </div>
+                            <p class="card-text">
+                              This is a wider card with supporting text below as
+                              a natural lead-in to additional content. A small
+                              river flows by their place and ...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+
+                <div class="clearfix my-4">
+                  <nav class="float-start" aria-label="Page navigation example">
+                    <ul class="pagination">
+                      <li class="page-item active">
+                        <span class="page-link">1</span>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="../category/category.html">
+                          2
+                        </a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="../category/category.html">
+                          3
+                        </a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="../category/category.html">
+                          4
+                        </a>
+                      </li>
+                      <li class="page-item">
+                        <span class="page-link disabled">....</span>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="../category/category.html">
+                          12
+                        </a>
+                      </li>
+                      <li class="page-item">
+                        <a
+                          class="page-link"
+                          href="../category/category.html"
+                          aria-label="Next"
+                          title="Next page"
+                        >
+                          <span aria-hidden="true">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="1.2rem"
+                              height="1.2rem"
+                              fill="currentColor"
+                              viewBox="0 0 512 512"
+                            >
+                              <polyline
+                                points="184 112 328 256 184 400"
+                                style={{
+                                  fill: "none",
+                                  stroke: "currentColor",
+                                  strokeMiterLimit: "10",
+                                  strokeWidth: "48px",
+                                  strokeLinecap: "round",
+                                  strokeLinejoin: "round",
+                                }}
+                              />
+                            </svg>
+                          </span>
+                          <span class="visually-hidden">Next</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                  <span class="py-2 float-end">Page 1 of 12</span>
+                </div>
+              </div>
+              {/* start right column */}
+              <aside class="col-md-4 end-sidebar-lg">
+                <div class="sticky">
+                  <aside class="widget">
+                    <div class="block-title-4">
+                      <h4 class="h5 title-arrow">
+                        <span>Most read</span>
+                      </h4>
+                    </div>
+                    <div class="small-post">
+                      <article class="card card-full hover-a mb-4">
+                        <div class="row">
+                          <div class="col-3 col-md-4 pe-2 pe-md-0">
+                            <div class="ratio_110-77 image-wrapper">
+                              <a href="#">
+                                <img
+                                  class="img-fluid lazy"
+                                  src="../../assets/img/assets/lazy-empty.png"
+                                  data-src="../../assets/img/110x77/img1.jpg"
+                                  alt="Image description"
+                                />
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-9 col-md-8">
+                            <div class="card-body pt-0">
+                              <h3 class="card-title h6 h5-sm h6-md">
+                                <a href="#">
+                                  Apple's stock rout starts and ends with the
+                                  iPhone
+                                </a>
+                              </h3>
+                              <div class="card-text small text-muted">
+                                <time datetime="2019-10-16">Oct 16, 2019</time>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                      <article class="card card-full hover-a mb-4">
+                        <div class="row">
+                          <div class="col-3 col-md-4 pe-2 pe-md-0">
+                            <div class="ratio_110-77 image-wrapper">
+                              <a href="#">
+                                <img
+                                  class="img-fluid lazy"
+                                  src="../../assets/img/assets/lazy-empty.png"
+                                  data-src="../../assets/img/110x77/img2.jpg"
+                                  alt="Image description"
+                                />
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-9 col-md-8">
+                            <div class="card-body pt-0">
+                              <h3 class="card-title h6 h5-sm h6-md">
+                                <a href="#">
+                                  94 Easy Chicken Recipes for Fuss-Free Family
+                                  Dinners
+                                </a>
+                              </h3>
+                              <div class="card-text small text-muted">
+                                <time datetime="2019-10-15">Oct 15, 2019</time>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                      <article class="card card-full hover-a mb-4">
+                        <div class="row">
+                          <div class="col-3 col-md-4 pe-2 pe-md-0">
+                            <div class="ratio_110-77 image-wrapper">
+                              <a href="#">
+                                <img
+                                  class="img-fluid lazy"
+                                  src="../../assets/img/assets/lazy-empty.png"
+                                  data-src="../../assets/img/110x77/img3.jpg"
+                                  alt="Image description"
+                                />
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-9 col-md-8">
+                            <div class="card-body pt-0">
+                              <h3 class="card-title h6 h4-sm h6-md">
+                                <a href="#">
+                                  Ford reveals autonomous vehicle philosophies,
+                                  priorities
+                                </a>
+                              </h3>
+                              <div class="card-text small text-muted">
+                                <time datetime="2019-10-14">Oct 14, 2019</time>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                      <article class="card card-full hover-a mb-4">
+                        <div class="row">
+                          <div class="col-3 col-md-4 pe-2 pe-md-0">
+                            <div class="ratio_110-77 image-wrapper">
+                              <a href="#">
+                                <img
+                                  class="img-fluid lazy"
+                                  src="../../assets/img/assets/lazy-empty.png"
+                                  data-src="../../assets/img/110x77/img4.jpg"
+                                  alt="Image description"
+                                />
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-9 col-md-8">
+                            <div class="card-body pt-0">
+                              <h3 class="card-title h6 h4-sm h6-md">
+                                <a href="#">
+                                  Bowen's Super Bowl LIII game plans: Which
+                                  defense will get stops?
+                                </a>
+                              </h3>
+                              <div class="card-text small text-muted">
+                                <time datetime="2019-10-16">Oct 16, 2019</time>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="gap-0"></div>
+                  </aside>
+
+                  <aside class="widget">
+                    <div class="p-4 border bg-light-dark text-center mb-4">
+                      <h4>Get Updates</h4>
+                      <p class="text-dark-light">
+                        Subscribe our newsletter to get the last update into
+                        your inbox!
+                      </p>
+                      <div class="mx-auto">
+                        <form
+                          id="subscribe"
+                          class="needs-validation"
+                          action="#"
+                          novalidate=""
+                        >
+                          <div class="input-group">
+                            <input
+                              type="email"
+                              class="form-control"
+                              name="email"
+                              required=""
+                              aria-label="email form"
+                              placeholder="Enter your email address"
+                            />
+                            <button class="btn btn-primary" type="submit">
+                              Subscribe
+                            </button>
+                            <div class="invalid-feedback">
+                              Please insert email address.
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                      <p class="small text-center text-dark-light mt-3">
+                        hate spammers, and never spam
+                      </p>
+                    </div>
+                    <div class="gap-0"></div>
+                  </aside>
+
+                  <aside class="widget">
+                    <div class="block-title-4">
+                      <h4 class="h5 title-arrow">
+                        <span>Travelling</span>
+                      </h4>
+                    </div>
+                    <div class="small-post">
+                      <article class="card card-full hover-a mb-2">
+                        <div class="card-body pt-0">
+                          <h3 class="card-title h5">
+                            <a href="#">
+                              Fans celebrate in Paris after side reaches World
+                              Cup final
+                            </a>
+                          </h3>
+                          <div class="card-text small text-muted">
+                            <time datetime="2019-06-16">Jun 16, 2019</time>
+                          </div>
+                        </div>
+                      </article>
+                      <article class="card card-full hover-a mb-2">
+                        <div class="card-body pt-0">
+                          <h3 class="card-title h5">
+                            <a href="#">
+                              5 Tips to Save Money Booking Your Next Hotel Room
+                            </a>
+                          </h3>
+                          <div class="card-text small text-muted">
+                            <time datetime="2019-06-16">Jun 16, 2019</time>
+                          </div>
+                        </div>
+                      </article>
+                      <article class="card card-full hover-a mb-2">
+                        <div class="card-body pt-0">
+                          <h3 class="card-title h5">
+                            <a href="#">
+                              The 52 Places Traveler: Summer in France, in Two
+                              Very Different Ways
+                            </a>
+                          </h3>
+                          <div class="card-text small text-muted">
+                            <time datetime="2019-06-16">Jun 16, 2019</time>
+                          </div>
+                        </div>
+                      </article>
+                      <article class="card card-full hover-a mb-2">
+                        <div class="card-body pt-0">
+                          <h3 class="card-title h5">
+                            <a href="#">
+                              6 Simple Tips to Help Vegetarian or Vegan
+                              Travelers Eat Well, Anywhere
+                            </a>
+                          </h3>
+                          <div class="card-text small text-muted">
+                            <time datetime="2019-06-16">Jun 16, 2019</time>
+                          </div>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="gap-0"></div>
+                  </aside>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </main>
+        <footer>
+          <div id="footer" class="footer-dark bg-dark bg-footer py-5 px-3">
+            <div class="container">
+              <div class="row">
+                {/* left widget */}
+                <div class="widget col-md-4">
+                  <h3 class="h5 widget-title border-bottom border-smooth">
+                    About Us
+                  </h3>
+                  <div class="widget-content">
+                    <img
+                      class="footer-logo img-fluid mb-2"
+                      src="../../assets/img/logo/logo-mobile.png"
+                      alt="footer logo"
+                    />
+                    <p>
+                      News magazine bootstrap templates. This demo is crafted
+                      specifically to exhibit the use of the theme as a magazine
+                      site. Visit our main page for more demos.
+                    </p>
+                    <address>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1rem"
+                        height="1rem"
+                        fill="currentColor"
+                        class="bi bi-geo-alt-fill me-2"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                      </svg>
+                      Amphitheatre, Mountain View,
+                      <br />
+                      San Francisco, CA 9321, United States
+                    </address>
+                    <p class="footer-info">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1rem"
+                        height="1rem"
+                        fill="currentColor"
+                        class="bi bi-telephone-fill me-2"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+                        />
+                      </svg>
+                      +(123) 456-7890
+                    </p>
+                    <p class="footer-info mb-5">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1rem"
+                        height="1rem"
+                        fill="currentColor"
+                        class="bi bi-envelope-fill me-2"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
+                      </svg>
+                      support@example.com
+                    </p>
+                    <div class="social mb-4">
+                      <span class="my-2 me-3">
+                        <a
+                          target="_blank"
+                          href="https://facebook.com"
+                          aria-label="Facebook"
+                          rel="noopener noreferrer"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="1.5rem"
+                            height="1.5rem"
+                            fill="currentColor"
+                            class="bi bi-facebook"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                          </svg>
+                        </a>
+                      </span>
+                      <span class="my-2 me-3">
+                        <a
+                          target="_blank"
+                          href="https://twitter.com"
+                          aria-label="Twitter"
+                          rel="noopener noreferrer"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="1.5rem"
+                            height="1.5rem"
+                            fill="currentColor"
+                            class="bi bi-twitter"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                          </svg>
+                        </a>
+                      </span>
+                      <span class="my-2 me-3">
+                        <a
+                          target="_blank"
+                          href="https://youtube.com"
+                          aria-label="Youtube"
+                          rel="noopener noreferrer"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="1.5rem"
+                            height="1.5rem"
+                            fill="currentColor"
+                            class="bi bi-youtube"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.122C.002 7.343.01 6.6.064 5.78l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                          </svg>
+                        </a>
+                      </span>
+                      <span class="my-2 me-3">
+                        <a
+                          target="_blank"
+                          href="https://instagram.com"
+                          aria-label="Instagram"
+                          rel="noopener noreferrer"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="1.5rem"
+                            height="1.5rem"
+                            fill="currentColor"
+                            viewBox="0 0 512 512"
+                          >
+                            <path d="M349.33,69.33a93.62,93.62,0,0,1,93.34,93.34V349.33a93.62,93.62,0,0,1-93.34,93.34H162.67a93.62,93.62,0,0,1-93.34-93.34V162.67a93.62,93.62,0,0,1,93.34-93.34H349.33m0-37.33H162.67C90.8,32,32,90.8,32,162.67V349.33C32,421.2,90.8,480,162.67,480H349.33C421.2,480,480,421.2,480,349.33V162.67C480,90.8,421.2,32,349.33,32Z" />
+                            <path d="M377.33,162.67a28,28,0,1,1,28-28A27.94,27.94,0,0,1,377.33,162.67Z" />
+                            <path d="M256,181.33A74.67,74.67,0,1,1,181.33,256,74.75,74.75,0,0,1,256,181.33M256,144A112,112,0,1,0,368,256,112,112,0,0,0,256,144Z" />
+                          </svg>
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                {/* center widget */}
+                <div class="widget col-sm-6 col-md-4">
+                  <h3 class="h5 widget-title border-bottom border-smooth">
+                    Popular Posts
+                  </h3>
+                  <div class="posts-list">
+                    <article class="card card-full hover-a mb-4">
+                      <div class="row">
+                        <div class="col-3 col-md-4 pe-2 pe-md-0">
+                          <div class="ratio_115-80 image-wrapper">
+                            <a href="../post/single1.html">
+                              <img
+                                class="img-fluid lazy"
+                                src="../../assets/img/assets/lazy-empty.png"
+                                data-src="../../assets/img/115x80/img6.jpg"
+                                alt="Image description"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-9 col-md-8">
+                          <div class="card-body pt-0">
+                            <h3 class="card-title h6">
+                              <a href="../post/single1.html">
+                                Why Apple went to war with Facebook and Google
+                                this week
+                              </a>
+                            </h3>
+                            <div class="card-text small text-light">
+                              <time datetime="2019-10-16">Oct 16, 2019</time>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="card card-full hover-a mb-4">
+                      <div class="row">
+                        <div class="col-3 col-md-4 pe-2 pe-md-0">
+                          <div class="ratio_115-80 image-wrapper">
+                            <a href="../post/single1.html">
+                              <img
+                                class="img-fluid lazy"
+                                src="../../assets/img/assets/lazy-empty.png"
+                                data-src="../../assets/img/115x80/img5.jpg"
+                                alt="Image description"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-9 col-md-8">
+                          <div class="card-body pt-0">
+                            <h3 class="card-title h6">
+                              <a href="../post/single1.html">
+                                The West Hoped for Democracy in Turkey. Erdogan
+                                Had Other Ideas
+                              </a>
+                            </h3>
+                            <div class="card-text small text-light">
+                              <time datetime="2019-10-15">Oct 15, 2019</time>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="card card-full hover-a mb-4">
+                      <div class="row">
+                        <div class="col-3 col-md-4 pe-2 pe-md-0">
+                          <div class="ratio_115-80 image-wrapper">
+                            <a href="../post/single1.html">
+                              <img
+                                class="img-fluid lazy"
+                                src="../../assets/img/assets/lazy-empty.png"
+                                data-src="../../assets/img/115x80/img4.jpg"
+                                alt="Image description"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-9 col-md-8">
+                          <div class="card-body pt-0">
+                            <h3 class="card-title h6">
+                              <a href="../post/single1.html">
+                                Recalls Causing Shortages of Blood Pressure
+                                Drugs: What You Can Do
+                              </a>
+                            </h3>
+                            <div class="card-text small text-light">
+                              <time datetime="2019-10-14">Oct 14, 2019</time>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+                {/* right widget */}
+                <div class="widget col-sm-6 col-md-4">
+                  <h3 class="h5 widget-title border-bottom border-smooth">
+                    Editor Picks
+                  </h3>
+                  <div class="posts-list">
+                    <article class="card card-full hover-a mb-4">
+                      <div class="row">
+                        <div class="col-3 col-md-4 pe-2 pe-md-0">
+                          <div class="ratio_115-80 image-wrapper">
+                            <a href="../post/single1.html">
+                              <img
+                                class="img-fluid lazy"
+                                src="../../assets/img/assets/lazy-empty.png"
+                                data-src="../../assets/img/115x80/img3.jpg"
+                                alt="Image description"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-9 col-md-8">
+                          <div class="card-body pt-0">
+                            <h3 class="card-title h6">
+                              <a href="../post/single1.html">
+                                The West Hoped for Democracy in Turkey. Erdogan
+                                Had Other Ideas
+                              </a>
+                            </h3>
+                            <div class="card-text small text-light">
+                              <time datetime="2019-10-16">Oct 16, 2019</time>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="card card-full hover-a mb-4">
+                      <div class="row">
+                        <div class="col-3 col-md-4 pe-2 pe-md-0">
+                          <div class="ratio_115-80 image-wrapper">
+                            <a href="../post/single1.html">
+                              <img
+                                class="img-fluid lazy"
+                                src="../../assets/img/assets/lazy-empty.png"
+                                data-src="../../assets/img/115x80/img2.jpg"
+                                alt="Image description"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-9 col-md-8">
+                          <div class="card-body pt-0">
+                            <h3 class="card-title h6">
+                              <a href="../post/single1.html">
+                                Dale Earnhardt Jr. Returns to the Racetrack and
+                                an Old Hobby
+                              </a>
+                            </h3>
+                            <div class="card-text small text-light">
+                              <time datetime="2019-10-15">Oct 15, 2019</time>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="card card-full hover-a mb-4">
+                      <div class="row">
+                        <div class="col-3 col-md-4 pe-2 pe-md-0">
+                          <div class="ratio_115-80 image-wrapper">
+                            <a href="../post/single1.html">
+                              <img
+                                class="img-fluid lazy"
+                                src="../../assets/img/assets/lazy-empty.png"
+                                data-src="../../assets/img/115x80/img1.jpg"
+                                alt="Image description"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-9 col-md-8">
+                          <div class="card-body pt-0">
+                            <h3 class="card-title h6">
+                              <a href="../post/single1.html">
+                                Yankees Party Like It’s 1998, at Least for a Day
+                              </a>
+                            </h3>
+                            <div class="card-text small text-light">
+                              <time datetime="2019-10-14">Oct 14, 2019</time>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* footer copyright content */}
+          <div class="footer-copyright bg-secondary">
+            <div class="container">
+              <nav class="navbar navbar-expand navbar-dark px-0">
+                <ul class="navbar-nav footer-nav text-center first-start-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/about-us.html">
+                      About
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/contact-us.html">
+                      Contact
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/term-of-use.html">
+                      Term Of Use
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/privacy-policy.html">
+                      Privacy
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" target="_blank">
+                      Buy Now
+                    </a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav ms-auto text-center">
+                  <li class="d-inline navbar-text">
+                    Copyright &copy; BootNews - All rights reserved.
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </footer>
       </div>
     </Layout>
   );
